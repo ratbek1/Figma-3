@@ -197,6 +197,26 @@ body{
     color: #000000;
 }
 .background-image{
-    position: absolute;
+    position: relative;
     margin-top: -300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.swiper {
+    width:1058;
+    height: 384px;
+    margin-top: 88px;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: white !important;
+    width: 23px !important;
+    padding: 20px;
+    height: 23px !important;
+    border-radius: 50%;
+    background-color: #FF0000;
 }
