@@ -88,5 +88,115 @@ body{
     letter-spacing: 0.065em;
     color: #000000;
 }
+.title h1{
+    color: #FFFFFF;
+    margin-top: 4px;
+    font-size: 40px;
+    letter-spacing: 0.065em;
+    text-align: center;
+    font-family:'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+.title hr{
+    outline: none;
+    border-color: #FF0000;
+    width: 364px;
+    background-color: #FF0000;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0 auto;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:1170px;
+    margin-top: 46px;
+}
+.picture-place{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.picture-place-second{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.picture-place img,.picture-place-second img{
+    position: relative;
+    z-index: 1;
+}
+.background-blur{
+    position: absolute;
+    width: 477px;
+    height: 477px;
 
+    background: #D81010;
+    filter: blur(150px);
+}
+.information-place{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+}
+.information-place-second{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+}
+.information-place p,.information-place-second p{
+    color: white;
+    font-family: 'Fira Sans' ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    width: 468px;
+    margin: 0 auto;
+    height: 66px;
+}
+.button-place{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button-place button{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    width:206px;
+    border-radius: 51px;
+    background-color: #FF0000;
+    height: 57px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.065em;
 
+    color: #FFFFFF;
+}
+.button-place-second{
+    display: flex;
+    justify-content: center;
+    width: 100%                                                                                                                                         ;
+}
+.button-place-second button{
+    border: none;
+    margin: 40px 0;
+    background: #FFFFFF;
+    border-radius: 27px;
+    padding: 13px 26px;
+    font-family: 'Fira Sans',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.065em;
+    color: #000000;
+}
+.background-image{
+    position: absolute;
+    margin-top: -300px;
+}
